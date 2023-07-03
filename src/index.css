@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bgcolor);
+  color: var(--color);
+}
+
+.light-mode {
+  --bgcolor: white;
+  --color: #213547;
+}
+
+.dark-mode {
+  --bgcolor: #213547;
+  --color: white;
+}
+
+.btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: var(--color);
+  color: var(--bgcolor);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
